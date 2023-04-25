@@ -309,17 +309,6 @@ body {
     color: white;
 }
 
-.btn--white {
-    border-color: white;
-    color: white;
-}
-
-.btn--white:active,
-.btn--white:hover {
-    background-color: white;
-    color: white;
-}
-
 .btn--yellow {
     border-color: yellow;
     color: yellow;
