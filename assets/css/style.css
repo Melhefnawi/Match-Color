@@ -154,7 +154,16 @@ body {
     background-color: darkgreen;
     color: white;
 }
+.btn--green {
+    border-color: green;
+    color: green;
+}
 
+.btn--green:active,
+.btn--green:hover {
+    background-color: darkgreen;
+    color: white;
+}
 .btn--gray {
     margin-top: 25px;
     background-color: #445361;
