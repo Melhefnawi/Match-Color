@@ -104,11 +104,44 @@ body {
     border-radius: 50%;
     background-color: white;
     border: 10px solid;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     font-size: 3.2rem;
     margin: 0 30px;
     transition: all 0.5s;
+}
+
+.btn--aqua {
+    border-color: aqua;
+    color: aqua;
+}
+
+.btn--aqua:active,
+.btn--aqua:hover {
+    background-color: rgb(0, 134, 139);
+    color: white;
+}
+
+.btn--beige {
+    border-color: beige;
+    color: beige;
+}
+
+.btn--beige:active,
+.btn--beige:hover {
+    background-color: rgb(139, 90, 0);
+    color: white;
+}
+
+.btn--black {
+    border-color: black;
+    color: black;
+}
+
+.btn--black:active,
+.btn--black:hover {
+    background-color: black;
+    color: white;
 }
 
 .btn--blue {
@@ -119,6 +152,83 @@ body {
 .btn--blue:active,
 .btn--blue:hover {
     background-color: darkblue;
+    color: white;
+}
+
+.btn--gold {
+    border-color: gold;
+    color: gold;
+}
+
+.btn--gold:active,
+.btn--gold:hover {
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+.btn--indigo {
+    border-color: indigo;
+    color: indigo;
+}
+
+.btn--indigo:active,
+.btn--indigo:hover {
+    background-color: indigo;
+    color: white;
+}
+
+.btn--Magenta {
+    border-color: Magenta;
+    color: Magenta;
+}
+
+.btn--Magenta:active,
+.btn--Magenta:hover {
+    background-color: darkMagenta;
+    color: white;
+}
+
+.btn--maroon {
+    border-color: maroon;
+    color: maroon;
+}
+
+.btn--maroon:active,
+.btn--maroon:hover {
+    background-color: maroon;
+    color: white;
+}
+
+.btn--moccasin {
+    border-color: moccasin;
+    color: moccasin;
+}
+
+.btn--moccasin:active,
+.btn--moccasin:hover {
+    background-color: moccasin;
+    color: white;
+}
+
+.btn--navy {
+    border-color: navy;
+    color: navy;
+}
+
+.btn--navy:active,
+.btn--navy:hover {
+    background-color: navy;
+    color: white;
+}
+
+.btn--olive {
+    border-color: olive;
+    color: olive;
+}
+
+.btn--olive:active,
+.btn--olive:hover {
+    background-color: olive;
     color: white;
 }
 
@@ -133,6 +243,39 @@ body {
     color: white;
 }
 
+.btn--peachpuff {
+    border-color: peachpuff;
+    color: peachpuff;
+}
+
+.btn--peachpuff:active,
+.btn--peachpuff:hover {
+    background-color: peachpuff;
+    color: white;
+}
+
+.btn--pink {
+    border-color: pink;
+    color: pink;
+}
+
+.btn--pink:active,
+.btn--pink:hover {
+    background-color: pink;
+    color: white;
+}
+
+.btn--purple {
+    border-color: purple;
+    color: purple;
+}
+
+.btn--purple:active,
+.btn--purple:hover {
+    background-color: purple;
+    color: white;
+}
+
 .btn--red {
     border-color: red;
     color: red;
@@ -144,26 +287,73 @@ body {
     color: white;
 }
 
-.btn--green {
-    border-color: green;
-    color: green;
+.btn--gray {
+    border-color: gray;
+    color: gray;
 }
 
-.btn--green:active,
-.btn--green:hover {
-    background-color: darkgreen;
+.btn--gray:active,
+.btn--gray:hover {
+    background-color: gray;
     color: white;
-}
-.btn--green {
-    border-color: green;
-    color: green;
 }
 
-.btn--green:active,
-.btn--green:hover {
-    background-color: darkgreen;
+.btn--violet {
+    border-color: violet;
+    color: violet;
+}
+
+.btn--violet:active,
+.btn--violet:hover {
+    background-color: darkviolet;
     color: white;
 }
+
+.btn--white {
+    border-color: white;
+    color: white;
+}
+
+.btn--white:active,
+.btn--white:hover {
+    background-color: white;
+    color: white;
+}
+
+.btn--yellow {
+    border-color: yellow;
+    color: yellow;
+}
+
+.btn--yellow:active,
+.btn--yellow:hover {
+    background-color: yellow;
+    color: white;
+}
+
+.btn--salmon {
+    border-color: salmon;
+    color: salmon;
+}
+
+.btn--salmon:active,
+.btn--salmon:hover {
+    background-color: salmon;
+    color: white;
+}
+
+.btn--turquoise {
+    border-color: turquoise;
+    color: turquoise;
+}
+
+.btn--turquoise:active,
+.btn--turquoise:hover {
+    background-color: turquoise;
+    color: white;
+}
+
+
 .btn--gray {
     margin-top: 25px;
     background-color: #445361;
