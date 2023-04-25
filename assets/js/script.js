@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    runGame("addition");
+    runGame("red");
 
 });
 
@@ -38,8 +38,8 @@ function runGame(gameType) {
     let num1 = Math.floor(Math.random() * 25) + 1;
     let num2 = Math.floor(Math.random() * 25) + 1;
 
-    if (gameType === "addition") {
-        displayAdditionQuestion(num1, num2);
+    if (gameType === "red") {
+        displayRedColor(num1, num2);
     } else if (gameType === "multiply") {
         displayMultiplyQuestion(num1, num2);
     } else if (gameType === "subtract") {
