@@ -37,7 +37,7 @@ function runGame(gameType) {
     // Creates two random numbers between 1 and 25
     let num1 = Math.floor(Math.random() * 25) + 1;
     let num2 = Math.floor(Math.random() * 25) + 1;
-    let colors = ["aqua",];
+    let colors = ["aqua","beige","black","gold","indigo","magenta","maroon","navy","olive","orange","peachpuff","pink","purple","red","gray","violet","yellow","salmon","turquoise"];
     if (gameType === "red") {
         displayRedColor(num1, num2);
     } else if (gameType === "multiply") {
