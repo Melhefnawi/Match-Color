@@ -155,9 +155,13 @@ function checkAnswer() {
     let color3 = color2.style.backgroundColor;
 
     if (color1 === color3) {
+
+        alert(`you choose correct color`);
         incrementScore();
     } else {
+        alert(`you choose incorrect color`);
         incrementWrongAnswer();
+
     }
 }
 
