@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 checkAnswer();
             } else {
                 let color = this.getAttribute("data-type");
-                runGame(color);
+                runGame();
                 setColor(color);
             }
         });
@@ -30,10 +30,10 @@ document.addEventListener("DOMContentLoaded", function () {
  * The main game "loop", called when the script is first loaded
  * and after the user's answer has been processed
  */
-function runGame(gameType) {
+function runGame() {
 
-    // document.getElementById("answer-box").value = "";
-    // document.getElementById("answer-box").focus();
+    document.getElementById("txt").value = "";
+    //document.getElementById("answer-box").focus();
 
     // Creates two random numbers between 1 and 25
     let num1 = Math.floor(Math.random() * 20) + 1;
@@ -133,21 +133,7 @@ function returnColor() {
         document.getElementById('txt').value = colors[num1];
     }
 }
-//function displaySubtractQuestion(operand1, operand2) {
 
-//document.getElementById("operand1").textContent = operand1 > operand2 ? operand1 : operand2;
-//document.getElementById("operand2").textContent = operand1 > operand2 ? operand2 : operand1;
-// document.getElementById('operator').textContent = "-";
-
-//}
-
-//function displayMultiplyQuestion(operand1, operand2) {
-
-//document.getElementById('operand1').textContent = operand1;
-//document.getElementById('operand2').textContent = operand2;
-//document.getElementById('operator').textContent = "x";
-
-//}
 function checkAnswer() {
 
     let color1 = document.getElementById("txt").value;
@@ -158,10 +144,15 @@ function checkAnswer() {
 
         alert(`you choose correct color`);
         incrementScore();
+        runGame();
+
     } else {
         alert(`you choose incorrect color`);
         incrementWrongAnswer();
 
+
+
     }
+
 }
 
