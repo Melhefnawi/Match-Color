@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 checkAnswer();
             } else {
                 let color = this.getAttribute("data-type");
-                runGame();
+
                 setColor(color);
             }
         });
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    runGame("red");
+    runGame();
 
 });
 
@@ -149,9 +149,6 @@ function checkAnswer() {
     } else {
         alert(`you choose incorrect color`);
         incrementWrongAnswer();
-
-
-
     }
 
 }
