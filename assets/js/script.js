@@ -124,11 +124,12 @@ function setColor(color) {
 }
 
 function returnColor() {
+
     let textColor = document.getElementById('txt').value;
     if (textColor === "") {
-        alert(`Please enter the correct color & press submit`);
-    } else {
-        return textColor;
+        let num1 = Math.floor(Math.random() * 20) + 1;
+        let colors = ["aqua", "beige", "black", "gold", "indigo", "magenta", "maroon", "navy", "olive", "orange", "peachpuff", "pink", "purple", "red", "gray", "violet", "yellow", "salmon", "turquoise"];
+        document.getElementById('txt').value = colors[num1];
     }
 }
 //function displaySubtractQuestion(operand1, operand2) {
