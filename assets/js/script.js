@@ -99,22 +99,22 @@ function runGame(gameType) {
 /**
  * Gets the current score from the DOM and increments it by 1
  */
-//function incrementScore() {
+function incrementScore() {
 
-//let oldScore = parseInt(document.getElementById("score").innerText);
-//document.getElementById("score").innerText = ++oldScore;
+    let oldScore = parseInt(document.getElementById("score").innerText);
+    document.getElementById("score").innerText = ++oldScore;
 
-//}
+}
 
 /**
  * Gets the current tally of incorrect answers from the DOM and increments it by 1
  */
-//function incrementWrongAnswer() {
+function incrementWrongAnswer() {
 
-//let oldScore = parseInt(document.getElementById("incorrect").innerText);
-// document.getElementById("incorrect").innerText = ++oldScore;
+    let oldScore = parseInt(document.getElementById("incorrect").innerText);
+    document.getElementById("incorrect").innerText = ++oldScore;
 
-//}
+}
 
 function setColor(color) {
 
@@ -148,6 +148,16 @@ function returnColor() {
 //document.getElementById('operator').textContent = "x";
 
 //}
-function setChoosenColor() {
+function checkAnswer() {
 
+    let color1 = document.getElementById("txt").value;
+    let color2 = document.getElementById("answer-box");
+    let color3 = color2.style.backgroundColor;
+
+    if (color1 === color3) {
+        incrementScore();
+    } else {
+        incrementWrongAnswer();
+    }
 }
+
