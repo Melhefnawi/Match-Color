@@ -28,12 +28,8 @@ document.addEventListener("DOMContentLoaded", function () {
 function runGame() {
 
     document.getElementById("txt").value = "";
-    let num1 = Math.floor(Math.random() * 20) + 1;
-    let colors = ["aqua", "beige", "black", "gold", "indigo", "magenta", "maroon", "navy", "olive", "orange", "peachpuff", "pink", "purple", "red", "gray", "violet", "yellow", "salmon", "turquoise"];
-    let color = colors[num1];
     returnColor();
 }
-
 
 function incrementScore() {
 
@@ -41,7 +37,6 @@ function incrementScore() {
     document.getElementById("score").innerText = ++oldScore;
 
 }
-
 
 function incrementWrongAnswer() {
 
@@ -76,11 +71,13 @@ function checkAnswer() {
 
         alert(`you choose correct color`);
         incrementScore();
+        setColor("white");
         runGame();
 
     } else {
         alert(`you choose incorrect color`);
         incrementWrongAnswer();
+        setColor("white");
     }
 
 }
