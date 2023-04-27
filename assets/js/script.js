@@ -9,8 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
             if (this.getAttribute("data-type") === "submit") {
                 checkAnswer();
             } else {
-                let gameType = this.getAttribute("data-type");
-                runGame(gameType);
+                let color = this.getAttribute("data-type");
+                runGame(color);
+                setColor(color);
             }
         });
     }
@@ -39,7 +40,7 @@ function runGame(gameType) {
 
     let colors = ["aqua", "beige", "black", "gold", "indigo", "magenta", "maroon", "navy", "olive", "orange", "peachpuff", "pink", "purple", "red", "gray", "violet", "yellow", "salmon", "turquoise"];
     let color = colors[num1];
-    setColor(color);
+
     returnColor();
     //if (gameType === "red") {
     // displayRedColor();
@@ -134,16 +135,19 @@ function returnColor() {
 }
 //function displaySubtractQuestion(operand1, operand2) {
 
-    //document.getElementById("operand1").textContent = operand1 > operand2 ? operand1 : operand2;
-    //document.getElementById("operand2").textContent = operand1 > operand2 ? operand2 : operand1;
-   // document.getElementById('operator').textContent = "-";
+//document.getElementById("operand1").textContent = operand1 > operand2 ? operand1 : operand2;
+//document.getElementById("operand2").textContent = operand1 > operand2 ? operand2 : operand1;
+// document.getElementById('operator').textContent = "-";
 
 //}
 
 //function displayMultiplyQuestion(operand1, operand2) {
 
-    //document.getElementById('operand1').textContent = operand1;
-    //document.getElementById('operand2').textContent = operand2;
-    //document.getElementById('operator').textContent = "x";
+//document.getElementById('operand1').textContent = operand1;
+//document.getElementById('operand2').textContent = operand2;
+//document.getElementById('operator').textContent = "x";
 
 //}
+function setChoosenColor() {
+
+}
