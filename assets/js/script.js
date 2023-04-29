@@ -2,14 +2,16 @@
 // Get the button elements and add event listeners to them
 
 window.onload = () => {
-  //add event listener to prevent the default behavior
-  const mouseOnlyNumberInputField = document.getElementById("answer-box");
-  const mouseOnlyNumber = document.getElementById("txt");
-  mouseOnlyNumberInputField.addEventListener("keypress", (event) => {
-  event.preventDefault()});
-  mouseOnlyNumber.addEventListener("keypress", (event) => {
-  event.preventDefault()});
-}
+    //add event listener to prevent the default behavior
+    const mouseOnlyNumberInputField = document.getElementById("answer-box");
+    const mouseOnlyNumber = document.getElementById("txt");
+    mouseOnlyNumberInputField.addEventListener("keypress", (event) => {
+        event.preventDefault();
+    });
+    mouseOnlyNumber.addEventListener("keypress", (event) => {
+        event.preventDefault();
+    });
+};
 
 
 
@@ -60,7 +62,9 @@ function incrementWrongAnswer() {
 function setColor(color) {
 
     let input = document.getElementById('answer-box');
+
     input.style.backgroundColor = color;
+
 }
 
 function returnColor() {
@@ -80,7 +84,10 @@ function checkAnswer() {
     let color2 = document.getElementById("answer-box");
     let color3 = color2.style.backgroundColor;
 
-    if (color1 === color3) {
+    if (color3 === "white") {
+        alert(`please choose a color`);
+    }
+    else if (color1 === color3) {
 
         alert(`you choose correct color`);
         incrementScore();
