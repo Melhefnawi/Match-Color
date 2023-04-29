@@ -55,9 +55,10 @@ function returnColor() {
 
     let textColor = document.getElementById('txt').value;
     if (textColor === "") {
-        let num1 = Math.floor(Math.random() * 20) + 1;
+        let num1 = Math.floor(Math.random() * 20);
         let colors = ["aqua", "beige", "black", "gold", "indigo", "magenta", "maroon", "navy", "olive", "orange", "peachpuff", "pink", "purple", "red", "gray", "violet", "yellow", "salmon", "turquoise"];
         document.getElementById('txt').value = colors[num1];
+        return;
     }
 }
 

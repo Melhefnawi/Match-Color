@@ -39,5 +39,22 @@ Match Colors is a site that hopes to demostrate how pure JavaScrpt works in real
        * the most complex function has a cyclomatic complexity value of 4 while the median is 2 
 
     ## Unfixed Bugs
+    # Deployment 
+    * The site was deplyed to GitHub pages. The steps to deploy are as follows:
+      * In GitHub repository, navigate to the Setting tab
+      * From the source section drop-down menu, select the Master Branch
+      * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  
+    The live link can be found here - add the link of the page 
+    
+    # Credits
+    
+    ### Content 
+    * The text for the Home page was taken from the Wikipedia Artical A
+    * The instructure on how to implement from validation on the Sign up page was taken from Specific You tube Totorial.
+    * The icons in the footer were taken from Font Awesome.
+  ### Media
+    * The photos used om the home and sign up page from this Open Source site
+    * The images used for the gallary page were taken from this other open source site 
     
    
