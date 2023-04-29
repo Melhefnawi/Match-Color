@@ -4,18 +4,14 @@
 window.onload = () => {
   //add event listener to prevent the default behavior
   const mouseOnlyNumberInputField = document.getElementById("answer-box");
+  const mouseOnlyNumber = document.getElementById("txt");
   mouseOnlyNumberInputField.addEventListener("keypress", (event) => {
-    event.preventDefault();
-  });
+  event.preventDefault()});
+  mouseOnlyNumber.addEventListener("keypress", (event) => {
+  event.preventDefault()});
 }
 
-window.onload = () => {
-  //add event listener to prevent the default behavior
-  const mouseOnlyNumberInputField = document.getElementById("txt");
-  mouseOnlyNumberInputField.addEventListener("keypress", (event) => {
-    event.preventDefault();
-  });
-}
+
 
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
