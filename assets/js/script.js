@@ -13,8 +13,6 @@ window.onload = () => {
     });
 };
 
-
-
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
 
@@ -62,7 +60,6 @@ function incrementWrongAnswer() {
 function setColor(color) {
 
     let input = document.getElementById('answer-box');
-
     input.style.backgroundColor = color;
 
 }
