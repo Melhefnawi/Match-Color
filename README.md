@@ -41,7 +41,7 @@ Match Colors is a site that hopes to demostrate how pure JavaScrpt works in real
      * No error were found when passing through the official (Jigsaw) validator
   <img src = "assets/images/9.JPG">
    * JavaScript 
-     * No error were found when passing through the official  Jshint validator 
+       *  No error were found when passing through the official  Jshint validator 
        * The following metric were returned:
        * There are 13 function in this file.
        * Function with the largest signiture takes 1 arguments, while median is 0
