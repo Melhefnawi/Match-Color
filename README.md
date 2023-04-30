@@ -1,7 +1,9 @@
 # Match Colors 
 
 Match Colors is a site that hopes to demostrate how pure JavaScrpt works in real-worldcontext. the site will be targeted toword people who not only love to implemenet more advanced JavaScript concept but also colors matching. Match colors is fully responsive JavaScript colors game that will allow users to learn the different colors and match with the color name.
-<img src ="assests/images/1.JPG">
+
+<img src ="assets/images/5.JPG">
+
 ## Features
 ### Existing Features
 * The Match Colors Logo and Heading
