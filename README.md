@@ -27,7 +27,7 @@ Match Colors is a site that hopes to demostrate how pure JavaScrpt works in real
    <img src = "assets/images/7.JPG">
 
   # The Score Area
-  
+
   * This section will allow the user to see exactly how many correct and incorrect answers they have provided. 
  
   <img src = "assets/images/8.JPG">
@@ -42,17 +42,19 @@ Match Colors is a site that hopes to demostrate how pure JavaScrpt works in real
 
    ### CSS
   
-     * No error were found when passing through the official (Jigsaw) validator
+    * No error were found when passing through the official (Jigsaw) validator
       
   <img src = "assets/images/9.JPG">
 
    ### JavaScript 
-       *  No error were found when passing through the official  Jshint validator 
-       * The following metric were returned:
-       * There are 13 function in this file.
-       * Function with the largest signiture takes 1 arguments, while median is 0
-       * The largest function has 12 statement in it, while the median is 2.
-       * the most complex function has a cyclomatic complexity value of 3 while the median is 1 
+
+    *  No error were found when passing through the official  Jshint validator 
+    * The following metric were returned:
+    * There are 13 function in this file.
+    * Function with the largest signiture takes 1 arguments, while median is 0
+    * The largest function has 12 statement in it, while the median is 2.
+    * the most complex function has a cyclomatic complexity value of 3 while the median is 1 
+  
    ### Accessibility 
 
        * i confirm that color and fonts are easy to read and accessible by running through lighthouse in devtools
@@ -60,21 +62,26 @@ Match Colors is a site that hopes to demostrate how pure JavaScrpt works in real
   <img src ="assets/images/11.JPG"> 
 
     # Unfixed Bugs
+
     ## Deployment 
-    * The site was deplyed to GitHub pages. The steps to deploy are as follows:
-      * In GitHub repository, navigate to the Setting tab
-      * From the source section drop-down menu, select the Master Branch
-      * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+      *  The site was deplyed to GitHub pages. The steps to deploy are as follows:
+      *  In GitHub repository, navigate to the Setting tab
+      *  From the source section drop-down menu, select the Master Branch
+      *  Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
   
     The live link can be found here - add the link of the page <https://melhefnawi.github.io/Match-Color/>
     
     # Credits
     
     ## Content 
+
     * The text for the Home page was taken from the Wikipedia Artical A
     * The instructure on how to implement from validation on the Sign up page was taken from Specific You tube Totorial.
     * The icons in the footer were taken from Font Awesome.
+    * 
   ## Media
+
     * The photos used om the home and sign up page from this Open Source site
     * The images used for the gallary page were taken from this other open source site 
     
