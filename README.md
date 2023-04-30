@@ -5,8 +5,10 @@ Match Colors is a site that hopes to demostrate how pure JavaScrpt works in real
 <img src ="assets/images/5.JPG">
 
 # Features
+
 ## Existing Features
-### The Match Colors Logo and Heading
+
+# The Match Colors Logo and Heading
   * Featured at the top of the page, the Match Colors and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
    <img src = "assets/images/1.JPG">
@@ -36,17 +38,18 @@ Match Colors is a site that hopes to demostrate how pure JavaScrpt works in real
 
   ## Validating Testing 
   
-  ### HTML
-     * No errors were returned when passing through the official W3C validator 
+  ## HTML
+ * No errors were returned when passing through the official W3C validator 
+  
    <img src = "assets/images/10.JPG">
 
-   ### CSS
+## CSS
   
-    * No error were found when passing through the official (Jigsaw) validator
+* No error were found when passing through the official (Jigsaw) validator
       
   <img src = "assets/images/9.JPG">
 
-   ### JavaScript 
+## JavaScript 
 
 * No error were found when passing through the official  Jshint validator 
 * The following metric were returned:
@@ -55,9 +58,9 @@ Match Colors is a site that hopes to demostrate how pure JavaScrpt works in real
 * The largest function has 12 statement in it, while the median is 2.
 
 
-   ### Accessibility 
+## Accessibility 
 
-     * i confirm that color and fonts are easy to read and accessible by running through lighthouse in devtools
+* i confirm that color and fonts are easy to read and accessible by running through lighthouse in devtools
         
   <img src ="assets/images/11.JPG"> 
 
