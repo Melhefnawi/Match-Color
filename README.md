@@ -37,9 +37,13 @@ Match Colors is a site that hopes to demostrate how pure JavaScrpt works in real
   * HTML
      * No errors were returned when passing through the official W3C validator 
    <img src = "assets/images/10.JPG">
+
    * CSS
+  
      * No error were found when passing through the official (Jigsaw) validator
+      
   <img src = "assets/images/9.JPG">
+
    * JavaScript 
        *  No error were found when passing through the official  Jshint validator 
        * The following metric were returned:
@@ -49,6 +53,7 @@ Match Colors is a site that hopes to demostrate how pure JavaScrpt works in real
        * the most complex function has a cyclomatic complexity value of 3 while the median is 1 
    * Accessibility 
        * i confirm that color and fonts are easy to read and accessible by running through lighthouse in devtools
+        
   <img src ="assets/images/11.JPG"> 
 
     ## Unfixed Bugs
