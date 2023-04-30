@@ -48,16 +48,16 @@ Match Colors is a site that hopes to demostrate how pure JavaScrpt works in real
 
    ### JavaScript 
 
-    *  No error were found when passing through the official  Jshint validator 
-    * The following metric were returned:
-    * There are 13 function in this file.
-    * Function with the largest signiture takes 1 arguments, while median is 0
-    * The largest function has 12 statement in it, while the median is 2.
-    * the most complex function has a cyclomatic complexity value of 3 while the median is 1 
-  
+* No error were found when passing through the official  Jshint validator 
+* The following metric were returned:
+* There are 13 function in this file.
+* Function with the largest signiture takes 1 arguments, while median is 0
+* The largest function has 12 statement in it, while the median is 2.
+
+
    ### Accessibility 
 
-       * i confirm that color and fonts are easy to read and accessible by running through lighthouse in devtools
+     * i confirm that color and fonts are easy to read and accessible by running through lighthouse in devtools
         
   <img src ="assets/images/11.JPG"> 
 
@@ -65,10 +65,10 @@ Match Colors is a site that hopes to demostrate how pure JavaScrpt works in real
 
     ## Deployment 
 
-      *  The site was deplyed to GitHub pages. The steps to deploy are as follows:
-      *  In GitHub repository, navigate to the Setting tab
-      *  From the source section drop-down menu, select the Master Branch
-      *  Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+     *  The site was deplyed to GitHub pages. The steps to deploy are as follows:
+    *  In GitHub repository, navigate to the Setting tab
+    *  From the source section drop-down menu, select the Master Branch
+     *  Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
   
     The live link can be found here - add the link of the page <https://melhefnawi.github.io/Match-Color/>
     
