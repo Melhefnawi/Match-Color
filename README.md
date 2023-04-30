@@ -47,6 +47,9 @@ Match Colors is a site that hopes to demostrate how pure JavaScrpt works in real
        * Function with the largest signiture takes 1 arguments, while median is 0
        * The largest function has 12 statement in it, while the median is 2.
        * the most complex function has a cyclomatic complexity value of 3 while the median is 1 
+   * Accessibility 
+       * i confirm that color and fonts are easy to read and accessible by running through lighthouse in devtools
+  <img src ="assets/images/11.JPG"> 
 
     ## Unfixed Bugs
     # Deployment 
@@ -55,7 +58,7 @@ Match Colors is a site that hopes to demostrate how pure JavaScrpt works in real
       * From the source section drop-down menu, select the Master Branch
       * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
   
-    The live link can be found here - add the link of the page 
+    The live link can be found here - add the link of the page <https://melhefnawi.github.io/Match-Color/>
     
     # Credits
     
