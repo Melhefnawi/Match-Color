@@ -4,12 +4,13 @@ Match Colors is a site that hopes to demostrate how pure JavaScrpt works in real
 
 <img src ="assets/images/5.JPG">
 
-## Features
+# Features
 ## Existing Features
 ### The Match Colors Logo and Heading
   * Featured at the top of the page, the Match Colors and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
    <img src = "assets/images/1.JPG">
+
 # The Game Area
    * this section will allow the user to play the match colors game. the user will be able to easily see the colors icons for the different colors shown  to choose one of the colors to suits the color written name. 
    * The user will be able to select one of the shown colors and by clicking the color button, it will be reflected in the text area. 
