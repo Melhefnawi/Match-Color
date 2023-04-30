@@ -6,14 +6,14 @@ Match Colors is a site that hopes to demostrate how pure JavaScrpt works in real
 
 ## Features
 ### Existing Features
-* The Match Colors Logo and Heading
+### The Match Colors Logo and Heading
   * Featured at the top of the page, the Match Colors and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
    <img src = "assets/images/1.JPG">
-* The Game Area
+### The Game Area
    * this section will allow the user to play the match colors game. the user will be able to easily see the colors icons for the different colors shown  to choose one of the colors to suits the color written name. 
    * The user will be able to select one of the shown colors and by clicking the color button, it will be reflected in the text area. 
-  # add image for game area here
+ 
   <img src = "assets/images/6.JPG">
 
   
@@ -22,7 +22,7 @@ Match Colors is a site that hopes to demostrate how pure JavaScrpt works in real
   * The question section is where the user will be able to see the name of the color to be matched as a part of the game. the user will be able to click the correct color from the available options.
   * the user will be able to choose one of the presented colors to match the presented name in the text area. 
   * The submitting button start the comparison process to check if the choosen color was the one that match the one shown in the text area.
-  # add a photo here 
+
    <img src = "assets/images/7.JPG">
 
   ## The Score Area
@@ -34,24 +34,24 @@ Match Colors is a site that hopes to demostrate how pure JavaScrpt works in real
 
   ### Validating Testing 
   
-  * HTML
+  #### HTML
      * No errors were returned when passing through the official W3C validator 
    <img src = "assets/images/10.JPG">
 
-   * CSS
+   #### CSS
   
      * No error were found when passing through the official (Jigsaw) validator
       
   <img src = "assets/images/9.JPG">
 
-   * JavaScript 
+   #### JavaScript 
        *  No error were found when passing through the official  Jshint validator 
        * The following metric were returned:
        * There are 13 function in this file.
        * Function with the largest signiture takes 1 arguments, while median is 0
        * The largest function has 12 statement in it, while the median is 2.
        * the most complex function has a cyclomatic complexity value of 3 while the median is 1 
-   * Accessibility 
+   #### Accessibility 
        * i confirm that color and fonts are easy to read and accessible by running through lighthouse in devtools
         
   <img src ="assets/images/11.JPG"> 
