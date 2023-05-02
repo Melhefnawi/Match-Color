@@ -18,7 +18,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     for (let button of buttons) {
         button.addEventListener("click", function () {
-            if (this.getAttribute("data-type") === "submit") {
+            if (this.getAttribute("data-type") === "inter") {
+                hideStartForm();
+                getUserName();
+
+            }
+            else if (this.getAttribute("data-type") === "submit") {
                 checkAnswer();
             } else {
                 let color = this.getAttribute("data-type");
@@ -34,6 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     runGame();
+
 
 });
 
@@ -80,22 +86,36 @@ function checkAnswer() {
     let color1 = document.getElementById("txt").value;
     let color2 = document.getElementById("answer-box");
     let color3 = color2.style.backgroundColor;
+    let userName = getUserName();
 
     if (color3 === "white") {
-        alert(`please choose a color`);
+
+        alert(`please ${userName}choose a color`);
     }
     else if (color1 === color3) {
 
-        alert(`you choose correct color`);
+        alert(`${userName} you choose correct color`);
         incrementScore();
         setColor("white");
         runGame();
 
     } else {
-        alert(`you choose incorrect color`);
+        alert(`${userName}you choose incorrect color`);
         incrementWrongAnswer();
         setColor("white");
     }
 
 }
 
+function getUserName() {
+
+    let userName = document.getElementById("userName").value;
+    return userName;
+
+}
+
+function hideStartForm() {
+
+    document.getElementById("UserName").style.display = "none";
+
+}

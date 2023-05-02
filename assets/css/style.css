@@ -437,6 +437,12 @@ input::-webkit-inner-spin-button {
         font-size: 20px;
 
     }
+
+    .playername {
+
+        margin: auto;
+    }
+
 }
 
 @media (max-width: 320px) {
@@ -473,10 +479,13 @@ input::-webkit-inner-spin-button {
 }
 
 .playername {
-    position: absolute;
+    position: fixed;
     z-index: 3;
-    right: 20px;
-    height: 100px;
+    right: 500px;
+    left: 500px;
+    top: 500px;
+    bottom: 500px;
+    height: 300px;
     width: 200px;
     background-color: #445361;
     margin: auto;
