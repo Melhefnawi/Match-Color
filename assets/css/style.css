@@ -368,6 +368,44 @@ input::-webkit-inner-spin-button {
     color: white;
 }
 
+/* --------form section */
+.playername {
+    position: fixed;
+    z-index: 3;
+    right: 16%;
+    left: 16%;
+    top: 0%;
+    bottom: 5%;
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #0a0101a3;
+    margin: auto;
+
+}
+
+#userName {
+    padding: 7px;
+    background-color: aqua;
+    margin: 10px;
+    border-radius: 20px;
+    position: relative;
+    top: 23px;
+
+}
+
+#startGame {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: aqua;
+    position: relative;
+    top: 33px;
+}
+
+#formPar {
+    color: white;
+}
+
 /* --------- Media queries */
 
 @media (max-width: 414px) {
@@ -482,42 +520,4 @@ input::-webkit-inner-spin-button {
         font-size: 1.5rem;
     }
 
-}
-
-/* ------------form section */
-.playername {
-    position: fixed;
-    z-index: 3;
-    right: 16%;
-    left: 16%;
-    top: 0%;
-    bottom: 5%;
-    height: 300px;
-    width: 200px;
-    border-radius: 20px;
-    background-color: #0a0101a3;
-    margin: auto;
-
-}
-
-#userName {
-    padding: 7px;
-    background-color: aqua;
-    margin: 10px;
-    border-radius: 20px;
-    position: relative;
-    top: 23px;
-
-}
-
-#startGame {
-    padding: 20px;
-    border-radius: 20px;
-    background-color: aqua;
-    position: relative;
-    top: 33px;
-}
-
-#formPar {
-    color: white;
 }
