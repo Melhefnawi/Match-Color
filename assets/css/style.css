@@ -484,11 +484,29 @@ input::-webkit-inner-spin-button {
     right: 16%;
     left: 16%;
     top: 0%;
-    bottom: 25%;
+    bottom: 0%;
     height: 300px;
     width: 200px;
     border-radius: 20px;
-    background-color: #121b299e;
+    background-color: #0a0101a3;
     margin: auto;
 
+}
+
+#userName {
+    padding: 7px;
+    background-color: aqua;
+    margin: 10px;
+    border-radius: 20px;
+    position: relative;
+    top: 90px;
+
+}
+
+#startGame {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: aqua;
+    position: relative;
+    top: 90px;
 }
