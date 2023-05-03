@@ -1,7 +1,7 @@
 
 //add event listener to prevent the default behavior
 window.onload = () => {
-    
+
     const mouseOnlyNumberInputField = document.getElementById("answer-box");
     const mouseOnlyNumber = document.getElementById("txt");
     const form = document.getElementById("formId");
@@ -46,27 +46,28 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
-
+// main function of the game 
 function runGame() {
 
     document.getElementById("txt").value = "";
     returnColor();
 }
 
+// function to increment the score 
 function incrementScore() {
 
     let oldScore = parseInt(document.getElementById("score").innerText);
     document.getElementById("score").innerText = ++oldScore;
 
 }
-
+// function to increment the wrong score
 function incrementWrongAnswer() {
 
     let oldScore = parseInt(document.getElementById("incorrect").innerText);
     document.getElementById("incorrect").innerText = ++oldScore;
 
 }
-
+// function to set the color in the text box after clicking the required color
 function setColor(color) {
 
     let userName = document.getElementById("userName").value;
@@ -78,7 +79,7 @@ function setColor(color) {
     }
 
 }
-
+// function to return the random color
 function returnColor() {
 
     let textColor = document.getElementById('txt').value;
@@ -89,7 +90,7 @@ function returnColor() {
         return;
     }
 }
-
+// function to check if the chosen color is correct
 function checkAnswer() {
 
     let geneColor1 = document.getElementById("txt").value;
@@ -118,20 +119,20 @@ function checkAnswer() {
     }
 
 }
-
+// function to get the username from submission form
 function getUserName() {
 
     let userName = document.getElementById("userName").value;
     return userName;
 
 }
-
+// function to hide the form after clicking start button 
 function hideStartForm() {
 
     document.getElementById("UserName").style.display = "none";
 
 }
-
+// function to check if the username was entered
 function checkNameEntered() {
 
     let userName = document.getElementById("userName").value;
