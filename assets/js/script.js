@@ -1,5 +1,4 @@
-// Wait for the DOM to finish loading before running the game
-// Get the button elements and add event listeners to them
+
 
 window.onload = () => {
     //add event listener to prevent the default behavior
@@ -17,9 +16,12 @@ window.onload = () => {
     });
 };
 
-document.addEventListener("DOMContentLoaded", function () {
-    let buttons = document.getElementsByTagName("button");
+// Wait for the DOM to finish loading before running the game
+// Get the button elements and add event listeners to them
 
+document.addEventListener("DOMContentLoaded", function () {
+
+    let buttons = document.getElementsByTagName("button");
 
     for (let button of buttons) {
         button.addEventListener("click", function () {
@@ -28,7 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
             }
             else if (this.getAttribute("data-type") === "submit") {
-
                 checkAnswer();
             } else {
                 let color = this.getAttribute("data-type");
@@ -43,10 +44,8 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-
-
-
 });
+
 
 function runGame() {
 
@@ -69,6 +68,7 @@ function incrementWrongAnswer() {
 }
 
 function setColor(color) {
+
     let userName = document.getElementById("userName").value;
     if (userName === "") {
         alert(`Please Enter the UserName`);
@@ -76,7 +76,6 @@ function setColor(color) {
         let input = document.getElementById('answer-box');
         input.style.backgroundColor = color;
     }
-
 
 }
 
@@ -92,7 +91,6 @@ function returnColor() {
 }
 
 function checkAnswer() {
-
 
     let geneColor1 = document.getElementById("txt").value;
     let numBoxColor2 = document.getElementById("answer-box");
