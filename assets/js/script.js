@@ -24,9 +24,11 @@ document.addEventListener("DOMContentLoaded", function () {
     for (let button of buttons) {
         button.addEventListener("click", function () {
             if (this.getAttribute("data-type") === "start") {
-                hideStartForm();
+                checkNameEntered();
+
             }
             else if (this.getAttribute("data-type") === "submit") {
+
                 checkAnswer();
             } else {
                 let color = this.getAttribute("data-type");
@@ -41,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    runGame();
+
 
 
 });
@@ -67,9 +69,14 @@ function incrementWrongAnswer() {
 }
 
 function setColor(color) {
+    let userName = document.getElementById("userName").value;
+    if (userName === "") {
+        alert(`Please Enter the UserName`);
+    } else {
+        let input = document.getElementById('answer-box');
+        input.style.backgroundColor = color;
+    }
 
-    let input = document.getElementById('answer-box');
-    input.style.backgroundColor = color;
 
 }
 
@@ -86,24 +93,28 @@ function returnColor() {
 
 function checkAnswer() {
 
-    let color1 = document.getElementById("txt").value;
-    let color2 = document.getElementById("answer-box");
-    let color3 = color2.style.backgroundColor;
+
+    let geneColor1 = document.getElementById("txt").value;
+    let numBoxColor2 = document.getElementById("answer-box");
+    let PickedColor3 = numBoxColor2.style.backgroundColor;
     let userName = getUserName();
 
-    if (color3 === "white") {
-
-        alert(`please ${userName}choose a color`);
+    if (userName === "") {
+        alert(`please enter the userName`);
     }
-    else if (color1 === color3) {
+    else if (PickedColor3 === "white") {
 
-        alert(`${userName} you choose correct color`);
+        alert(`please ${userName} choose a color`);
+    }
+    else if (geneColor1 === PickedColor3) {
+
+        alert(`${userName} you choose the correct color`);
         incrementScore();
         setColor("white");
         runGame();
 
     } else {
-        alert(`${userName}you choose incorrect color`);
+        alert(`${userName} you choose incorrect color`);
         incrementWrongAnswer();
         setColor("white");
     }
@@ -123,4 +134,15 @@ function hideStartForm() {
 
 }
 
+function checkNameEntered() {
+
+    let userName = document.getElementById("userName").value;
+    if (userName === "") {
+        alert(`Please Enter the UserName`);
+    } else {
+        hideStartForm();
+        runGame();
+    }
+
+}
 
