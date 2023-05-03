@@ -5,10 +5,14 @@ window.onload = () => {
     //add event listener to prevent the default behavior
     const mouseOnlyNumberInputField = document.getElementById("answer-box");
     const mouseOnlyNumber = document.getElementById("txt");
+    const form = document.getElementById("formId");
     mouseOnlyNumberInputField.addEventListener("keypress", (event) => {
         event.preventDefault();
     });
     mouseOnlyNumber.addEventListener("keypress", (event) => {
+        event.preventDefault();
+    });
+    form.addEventListener("submit", (event) => {
         event.preventDefault();
     });
 };
@@ -16,12 +20,11 @@ window.onload = () => {
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
 
+
     for (let button of buttons) {
         button.addEventListener("click", function () {
-            if (this.getAttribute("data-type") === "inter") {
+            if (this.getAttribute("data-type") === "start") {
                 hideStartForm();
-                getUserName();
-
             }
             else if (this.getAttribute("data-type") === "submit") {
                 checkAnswer();
@@ -119,3 +122,5 @@ function hideStartForm() {
     document.getElementById("UserName").style.display = "none";
 
 }
+
+
