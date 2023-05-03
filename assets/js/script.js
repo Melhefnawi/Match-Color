@@ -1,7 +1,7 @@
 
-
+//add event listener to prevent the default behavior
 window.onload = () => {
-    //add event listener to prevent the default behavior
+    
     const mouseOnlyNumberInputField = document.getElementById("answer-box");
     const mouseOnlyNumber = document.getElementById("txt");
     const form = document.getElementById("formId");
