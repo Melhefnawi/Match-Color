@@ -15,9 +15,9 @@ Match Colors is a site that hopes to demonstrate how pure JavaScript works in a 
 
 # The Game Area
 
-   * This section will allow the user to play the match colors game. the user will be able to easily see the colors icons for the different colors shown to choose one of the colors to suit the color written name. 
+* This section will allow the user to play the match colors game. the user will be able to easily see the colors icons for the different colors shown to choose one of the colors to suit the color written name. 
 * At the beginning of the game, the game request the user to enter his name to be able to start the game, then the user name will be given to one of the function to show up on page every time the user choose a correct or wrong answer.
-   * The user will be able to select one of the shown colors and by clicking the color button, it will be reflected in the text area. 
+ * The user will be able to select one of the shown colors and by clicking the color button, it will be reflected in the text area. 
  
   <img src = "assets/images/6.JPG">
 
@@ -65,7 +65,7 @@ Match Colors is a site that hopes to demonstrate how pure JavaScript works in a 
 * I confirm that color and fonts are easy to read and accessible by running through lighthouse in devtools
 * I confirm that the site has been responsive in all the different screens. 
         
-  <img src ="assets/images/11.JPG"> 
+  <img src ="assets/images/12.JPG"> 
 
     # Unfixed Bugs
     

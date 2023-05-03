@@ -463,6 +463,12 @@ input::-webkit-inner-spin-button {
         padding: 10px 0;
     }
 
+    .playername {
+
+        height: 50%;
+        width: 50%;
+    }
+
 }
 
 @media (max-width: 820px) {
@@ -485,7 +491,7 @@ input::-webkit-inner-spin-button {
     right: 16%;
     left: 16%;
     top: 0%;
-    bottom: 0%;
+    bottom: 5%;
     height: 300px;
     width: 200px;
     border-radius: 20px;
