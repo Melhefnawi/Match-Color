@@ -377,9 +377,9 @@ input::-webkit-inner-spin-button {
     top: 0%;
     bottom: 5%;
     height: 300px;
-    width: 200px;
+    width: 400px;
     border-radius: 20px;
-    background-color: #0a0101a3;
+    background-color: #0a0101f4;
     margin: auto;
 
 }
@@ -408,7 +408,7 @@ input::-webkit-inner-spin-button {
 
 /* --------- Media queries */
 
-@media (max-width: 414px) {
+@media (max-width: 550px) {
     .controls-area {
         width: 100%;
 
@@ -479,6 +479,11 @@ input::-webkit-inner-spin-button {
     .playername {
 
         margin: auto;
+        width: 50%;
+    }
+
+    #userName {
+        width: 70%;
     }
 
 }
