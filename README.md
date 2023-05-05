@@ -67,7 +67,7 @@ Match Colors is a site that hopes to demonstrate how pure JavaScript works in a 
         
   <img src ="assets/images/lighthouse.jpg"> 
 
-    # Unfixed Bugs
+    # fixed Bugs
     
     * During checking the performance of the game using the lighthouse, the accessiblity of the page shows a very low performance with a 67%, the lighthouse shows that the problem was caused as a results of the button labelling. by adding an aria labelling for all the buttons and text areas, the accessibility performace is improved to reach 97%.
 
