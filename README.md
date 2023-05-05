@@ -2,7 +2,7 @@
 
 Match Colors is a site that hopes to demonstrate how pure JavaScript works in a real-world context. the site will be targeted toward people who not only love to implement more advanced JavaScript concepts but also color matching. Match Colors is a fully responsive JavaScript color game that will allow users to learn the different colors and match them with the color name available options.
 
-<img src ="assets/images/5.JPG">
+<img src ="assets/images/responsivescreen.jpg">
 
 
 
@@ -11,7 +11,7 @@ Match Colors is a site that hopes to demonstrate how pure JavaScript works in a 
 ### The Match Colors Logo and Heading
   * Featured at the top of the page, the Match Colors and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
-   <img src = "assets/images/1.JPG">
+   <img src = "assets/images/heading.jpg">
 
 ## The Game Area
 
@@ -19,7 +19,7 @@ Match Colors is a site that hopes to demonstrate how pure JavaScript works in a 
 * At the beginning of the game, the game request the user to enter his name to be able to start the game, then the user name will be given to one of the function to show up on page every time the user choose a correct or wrong answer.
  * The user will be able to select one of the shown colors and by clicking the color button, it will be reflected in the text area. 
  
-  <img src = "assets/images/6.JPG">
+  <img src = "assets/images/gamearea.jpg">
 
   
   ## The Question section 
@@ -28,13 +28,13 @@ Match Colors is a site that hopes to demonstrate how pure JavaScript works in a 
   * The user will be able to choose one of the presented colors to match the presented name in the text area. 
   * The submitting button starts the comparison process to check if the chosen color was the one that matches the one shown in the text area.
 
-   <img src = "assets/images/7.JPG">
+   <img src = "assets/images/questionarea.jpg">
 
   ## The Score Area
 
   * This section will allow the user to see exactly how many correct and incorrect answers they have provided. 
  
-  <img src = "assets/images/8.JPG">
+  <img src = "assets/images/scorearea.jpg">
   
   # Testing 
 
@@ -43,13 +43,13 @@ Match Colors is a site that hopes to demonstrate how pure JavaScript works in a 
   ## HTML
  * No errors were returned when passing through the official W3C validator 
   
-   <img src = "assets/images/10.JPG">
+   <img src = "assets/images/htmlchecker.jpg">
 
 ## CSS
   
 * No error were found when passing through the official (Jigsaw) validator
       
-  <img src = "assets/images/9.JPG">
+  <img src = "assets/images/csschecker.jpg">
 
 ## JavaScript 
 
@@ -65,7 +65,7 @@ Match Colors is a site that hopes to demonstrate how pure JavaScript works in a 
 * I confirm that color and fonts are easy to read and accessible by running through lighthouse in devtools
 * I confirm that the site has been responsive in all the different screens. 
         
-  <img src ="assets/images/12.JPG"> 
+  <img src ="assets/images/lighthouse.jpg"> 
 
     # Unfixed Bugs
     
