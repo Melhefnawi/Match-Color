@@ -4,16 +4,16 @@ Match Colors is a site that hopes to demonstrate how pure JavaScript works in a 
 
 <img src ="assets/images/5.JPG">
 
-# Features
 
-## Existing Features
 
-# The Match Colors Logo and Heading
+# Existing Features
+
+### The Match Colors Logo and Heading
   * Featured at the top of the page, the Match Colors and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
    <img src = "assets/images/1.JPG">
 
-# The Game Area
+## The Game Area
 
 * This section will allow the user to play the match colors game. the user will be able to easily see the colors icons for the different colors shown to choose one of the colors to suit the color written name. 
 * At the beginning of the game, the game request the user to enter his name to be able to start the game, then the user name will be given to one of the function to show up on page every time the user choose a correct or wrong answer.
@@ -22,7 +22,7 @@ Match Colors is a site that hopes to demonstrate how pure JavaScript works in a 
   <img src = "assets/images/6.JPG">
 
   
-  # The Question section 
+  ## The Question section 
 
   * The question section is where the user will be able to see the name of the color to be matched as a part of the game. the user will be able to click the correct color from the available options.
   * The user will be able to choose one of the presented colors to match the presented name in the text area. 
@@ -30,7 +30,7 @@ Match Colors is a site that hopes to demonstrate how pure JavaScript works in a 
 
    <img src = "assets/images/7.JPG">
 
-  # The Score Area
+  ## The Score Area
 
   * This section will allow the user to see exactly how many correct and incorrect answers they have provided. 
  

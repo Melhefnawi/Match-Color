@@ -95,17 +95,17 @@ function checkAnswer() {
 
     let geneColor1 = document.getElementById("txt").value;
     let numBoxColor2 = document.getElementById("answer-box");
-    let PickedColor3 = numBoxColor2.style.backgroundColor;
+    let pickedColor3 = numBoxColor2.style.backgroundColor;
     let userName = getUserName();
 
     if (userName === "") {
         alert(`please enter the userName`);
     }
-    else if (PickedColor3 === "white") {
+    else if (pickedColor3 === "white") {
 
         alert(`please ${userName} choose a color`);
     }
-    else if (geneColor1 === PickedColor3) {
+    else if (geneColor1 === pickedColor3) {
 
         alert(`${userName} you choose the correct color`);
         incrementScore();

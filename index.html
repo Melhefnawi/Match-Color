@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Match Colors</title>
 </head>
 
 <body>
     <h1 class="heading">
         <img class="logo" src="assets/images/logo.png" alt="logo"> Match Color
     </h1>
-
+    <!-- Gaming Area with the different color buttons-->
     <div class="game-area">
         <div class="controls-area">
             <button name="aqua" data-type="aqua" class="btn btn--big btn--aqua" aria-label="aqua">
@@ -78,6 +78,7 @@
             </button>
 
         </div>
+        <!-- Form Area with to get the user name to start the game -->
         <div id="UserName">
             <form id="formId" class="playername">
                 <p id="formPar">Welcome to Match Colors, Enter your name to Start matching colors</p>
@@ -86,6 +87,7 @@
             </form>
 
         </div>
+        <!-- Question Area to choose the required color and pressinf submit -->
         <div class="question-area">
             <input class="numstyle" id="txt" type="text" aria-label="text">
             <span>=</span>
@@ -94,7 +96,7 @@
         </div>
         <button data-type="submit" class="btn btn--gray" aria-label="submit">Submit Answer</button>
     </div>
-
+    <!-- Score area that shows the correct score and incorrect score-->
     <div class="score-area">
         <p class="scores">Correct Answers <span id="score">0</span></p>
         <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
